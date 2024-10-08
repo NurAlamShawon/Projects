@@ -1,0 +1,52 @@
+.div {
+    margin-top: 200px;
+    margin-left: 40%;
+}
+
+.table {
+    width: 320px;
+    height: 340px;
+    background-color: black;
+    border: none;
+    box-shadow: 10px 10px gray;
+    padding: 5px;
+    padding-left: 18px;
+}
+
+.button {
+    background-color: #333333;
+    font-size: 18px;
+    border-radius: 50px;
+    height: 35px;
+    color: white;
+    width: 45px;
+    border: none;
+}
+
+.button1 {
+    background-color: #ffac44;
+    font-size: 18px;
+    border-radius: 50px;
+    height: 35px;
+    width: 50px;
+    color: white;
+    border: none;
+}
+
+.button2 {
+    background-color: #ffac44;
+    font-size: 18px;
+    border-radius: 50px;
+    height: 35px;
+    width: 120px;
+    color: white;
+    border: none;
+}
+
+.cal {
+
+    height: 35px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
