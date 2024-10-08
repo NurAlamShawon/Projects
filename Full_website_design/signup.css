@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;900&display=swap");
+body {
+  background-image: url(bg6.jpg);
+  background-size: cover;
+}
+.table {
+  background: transparent;
+  backdrop-filter: blur(5px);
+  margin-left: 18%;
+  height: auto;
+  width: 62%;
+}
+.table td {
+  padding: 2.5%;
+}
+
+.table_head {
+  text-align: center;
+  color: aliceblue;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+.name {
+  color: white;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+.box {
+  width: 500px;
+  height: 25px;
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+}
+input::placeholder {
+  color: rgb(173, 172, 172);
+  font-size: 15px;
+}
+.box:hover {
+  background-color: rgb(201, 198, 198);
+  border-radius: 10px;
+  border: none;
+}
+.box::placeholder {
+  padding-left: 20px;
+}
+.pw {
+  color: white;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+.rpw {
+  color: white;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+.email {
+  color: white;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+.phone {
+  color: white;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+.dob {
+  color: white;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+.photo {
+  color: white;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+.sign {
+  color: white;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+.loginbtn {
+  text-align: center;
+  border-radius: 15px;
+  width: 95%;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  color: white;
+  transition: 0.2s all;
+}
+.loginbtn:hover {
+  background-color: white;
+}
+.login {
+  padding-left: 46%;
+  padding-right: 46%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 21px;
+  font-weight: bold;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+}
+.login:hover {
+  color: rgb(0, 0, 0);
+}
+
+@media only screen and (min-width: 381px) {
+  .box {
+    width: 500px;
+    height: 25px;
+  }
+  .table_head {
+    font-size: 28px;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .pw {
+    font-size: 20px;
+  }
+
+  .rpw {
+    font-size: 20px;
+  }
+
+  .email {
+    font-size: 20px;
+  }
+
+  .phone {
+    font-size: 20px;
+  }
+
+  .dob {
+    font-size: 20px;
+  }
+
+  .photo {
+    font-size: 20px;
+  }
+
+  .sign {
+    font-size: 20px;
+  }
+  .login {
+    font-size: 21px;
+  }
+}
+@media only screen and (min-width: 413px) {
+}
+@media only screen and (min-width: 601px) {
+}
+@media only screen and (min-width: 769px) {
+}
+@media only screen and (min-width: 1025px) {
+}
+@media only screen and (min-width: 1366px) {
+}

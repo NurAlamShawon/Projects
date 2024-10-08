@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;900&display=swap");
+
+body {
+  background-image: url(bg5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div {
+  width: 500px;
+  height: 350px;
+}
+
+.table {
+  margin-top: 40%;
+  padding-top: 3%;
+  padding-left: 8%;
+  border-radius: 10px;
+  background: transparent;
+  backdrop-filter: blur(9px);
+  border: 1.5px solid black;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  box-shadow: 6px 6px 6px 6px rgb(90, 89, 89);
+}
+.box {
+  font-family: "Nunito", sans-serif;
+  width: 85.5%;
+  height: 45%;
+  transition: 0.2s all;
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+}
+input::placeholder {
+  color: rgb(173, 172, 172);
+  font-size: 15px;
+}
+.box:hover {
+  background-color: rgb(201, 198, 198);
+}
+.box::placeholder {
+  padding-left: 20px;
+}
+
+.loginbtn {
+  border: none;
+  border-radius: 10px;
+  width: 85.5%;
+  height: 50%;
+  background-color: rgb(26, 26, 26);
+  color: white;
+  border: none;
+  transition: 0.4s all;
+}
+.loginbtn:hover {
+  background-color: white;
+
+
+}
+.loginbtntext {
+  text-align: center;
+  padding-left: 46%;
+  padding-right: 46%;
+  padding-top: 3%;
+  padding-bottom:3%;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  transition: 0.4s all;
+}
+.loginbtntext:hover {
+  color: rgb(26, 26, 26);
+}
+
+.account {
+  color: white;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+}
+
+.gosignup {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  transition: 0.3s all;
+
+}
+.gosignup:hover {
+  color: rgb(43, 43, 43);
+
+
+}
+/* Use min-width instead of max-width to avoid overlap */
+@media only screen and (min-width: 381px) {
+  .div {
+    width: 140px;
+    height: 55px;
+  }
+  input::placeholder {
+    font-size: 5px;
+  }
+  .box::placeholder {
+    padding-left: 5px;
+  }
+  .loginbtn{
+    height: 60%;
+     }
+  .loginbtntext {
+    font-size: 5px;
+  }
+  .loginbtntext:hover {
+    font-size: 6px;
+  }
+
+  .account {
+    font-size: 6px;
+  }
+
+  .gosignup {
+    font-size: 6px;
+  }
+}
+@media only screen and (min-width: 413px) {
+  .div {
+    width: 160px;
+    height: 90px;
+  }
+  input::placeholder {
+    font-size: 6px;
+  }
+  .box::placeholder {
+    padding-left: 6px;
+  }
+  .loginbtn{
+ height: 80%;
+  }
+
+  .loginbtntext {
+    font-size: 6px;
+  }
+  .loginbtntext:hover {
+    font-size: 7px;
+  }
+
+  .account {
+    font-size: 7px;
+  }
+
+  .gosignup {
+    font-size: 7px;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .div {
+    width: 190px;
+    height: 120px;
+  }
+  input::placeholder {
+    font-size: 7px;
+  }
+  .box::placeholder {
+    padding-left: 7px;
+  }
+ 
+
+  .loginbtntext {
+    font-size: 6px;
+  }
+  .loginbtntext:hover {
+    font-size: 7px;
+  }
+
+  .account {
+    font-size: 8px;
+  }
+
+  .gosignup {
+    font-size: 8px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .div {
+    width: 280px;
+    height: 160px;
+  }
+  input::placeholder {
+    font-size: 9px;
+  }
+  .box::placeholder {
+    padding-left: 9px;
+  }
+  .loginbtn{
+    height: 70%;
+     }
+  .loginbtntext {
+    font-size: 9px;
+  }
+  .loginbtntext:hover {
+    font-size: 10px;
+  }
+
+  .account {
+    font-size: 10px;
+  }
+
+  .gosignup {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .div {
+    width: 360px;
+    height: 270px;
+  }
+  input::placeholder {
+    font-size: 12px;
+  }
+  .box::placeholder {
+    padding-left: 12px;
+  }
+  .loginbtn{
+    height: 60%;
+     }
+  .loginbtntext {
+    font-size: 13px;
+  }
+  .loginbtntext:hover {
+    font-size: 14px;
+  }
+
+  .account {
+    font-size: 15px;
+  }
+
+  .gosignup {
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .div {
+    width: 500px;
+  height: 350px;
+  }
+  input::placeholder {
+    font-size: 14px;
+  }
+  .box::placeholder {
+    padding-left: 14px;
+  }
+  .loginbtn{
+    height: 50%;
+     }
+  .loginbtntext {
+    font-size: 15px;
+  }
+  .loginbtntext:hover {
+    font-size: 16px;
+  }
+
+  .account {
+    font-size: 17px;
+  }
+
+  .gosignup {
+    font-size: 17px;
+  }
+}
