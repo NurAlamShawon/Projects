@@ -1,0 +1,357 @@
+.heading {
+    background-image: url(bg2.png);
+    background-size: cover;
+    height: 90px;
+    width: 100%;
+    padding: 2px;
+
+}
+
+
+.maindiv {
+    background-image: url(bg1.png);
+    background-size: cover;
+    padding-left: 10px;
+    height: 450px;
+    max-width: 100%;
+}
+
+.leftdiv {
+    margin-top: 60px;
+    float: left;
+}
+
+.self {
+    height: auto;
+    width: 900px;
+}
+
+.name {
+    margin-left: 120px;
+    color: black;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.web {
+    color: rgb(89, 87, 87);
+    font-size: 45px;
+    margin-left: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.description {
+    color: rgb(67, 67, 67);
+    font-size: 16px;
+    margin-left: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.description1 {
+    color: rgb(81, 84, 85);
+    font-size: 16px;
+    margin-left: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.rightdiv {
+
+    float: right;
+}
+
+.picture {
+    height: auto;
+    max-width: 270px;
+    margin-right: 60px;
+
+
+}
+
+.cvbutton {
+    border-radius: 20px;
+    float: left;
+    margin-left: 120px;
+    border: black solid 2px;
+    padding-left: 24px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    padding-right: 24px;
+}
+
+
+.cvlink {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.cvbutton:hover {
+    text-align: center;
+    background-color: #308fbb;
+    font-size: 19px;
+}
+
+
+.footer {
+    background-image: url(bg1.png);
+    background-size: cover;
+    text-align: center;
+    box-shadow: 10px 10px 5px lightgrey;
+    height: auto;
+    max-width: 100%;
+
+
+}
+
+.area {
+    background-image: url(area.png);
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 1000;
+    padding-left: 10%;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.num1 {
+    padding-left: 12%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.num2 {
+    margin-left: 14%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.num3 {
+    padding-left: 9%;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.web {
+    padding-left: 0%;
+    height: auto;
+    max-width: 170px;
+}
+
+.mobile {
+    margin-left: 16%;
+    height: auto;
+    max-width: 240px;
+}
+
+.cp {
+    padding-left: 18%;
+    height: auto;
+    max-width: 200px;
+}
+
+.footer2 {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    background-image: url(bg1.png);
+    background-size: cover;
+}
+
+.project {
+    background-image: url(area.png);
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-weight: 1000;
+    padding-left: 10%;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.table {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+
+}
+
+.tr {
+    box-shadow: 10px 10px 5px lightgrey;
+    background-image: url(bg4.png);
+    background-size: cover;
+
+}
+
+.style {
+    padding-left: 60px;
+}
+
+.web_example {
+    max-height: 250px;
+    max-width: auto;
+    box-shadow: 6px rgb(58, 58, 58);
+}
+
+.web_example1 {
+    max-height: 250px;
+    max-width: auto;
+}
+
+.lostandfound1 {
+    max-height: 250px;
+    max-width: auto;
+}
+
+.lostandfound2 {
+    max-height: 250px;
+    max-width: auto;
+}
+
+.calculator {
+    max-height: 250px;
+    max-width: auto;
+}
+
+.cp_example {
+    max-height: 250px;
+    max-width: auto;
+}
+
+.github {
+    max-width: 15px;
+    max-height: 15px;
+}
+
+.linkedin {
+    max-width: 18px;
+    max-height: 25px;
+}
+
+
+.touch {
+    
+    height: 400px;
+    width: 100%;
+    background-image: url(bg2.png);
+    background-size: cover;
+}
+
+.p_touch {
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.table_touch {
+    margin-left: 28%;
+
+
+}
+
+.label_class {
+    font-size: 25px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lable_email {
+    width: 610px;
+    height: 20px;
+    background-color: #1f3239;
+
+}
+
+.lable_email:hover {
+    background-color: #486772;
+}
+
+.label_message {
+    width: 610px;
+    height: 160px;
+    background-color: #1f3239;
+
+}
+
+.label_message:hover {
+    background-color: #486772;
+}
+
+.button_touch {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    width: 615px;
+    height: 35px;
+    border-radius: 6px;
+    border: black solid 1.5px;
+}
+
+.button_touch:active {
+    background-color: rgb(120, 117, 117);
+}
+
+
+
+.ending {
+   
+    display: inline-block;
+    width: 100%;
+    height: 220px;
+    text-align: center;
+    background-image: url(bg3.png);
+    background-size: cover;
+}
+
+
+
+.endingtable {
+
+    width: 100%;
+    height: 50px;
+    text-align: center;
+
+}
+
+.email {
+
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.linkedinlink {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.number {
+
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.git {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.refer {
+    color: #308fbb;
+    text-decoration: none;
+}
