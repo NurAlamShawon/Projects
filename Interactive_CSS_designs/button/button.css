@@ -1,0 +1,17 @@
+.btn {
+    font-size: 1rem;
+    font-weight: 540;
+    padding: 0.5rem 1rem;
+    color: rgb(235, 66, 66);
+    background-color: rgb(209, 168, 168);
+    border: 5px solid rgb(235, 66, 66);
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(235, 66, 66);
+    color: white;
+    border: 5px solid  rgb(235, 66, 66);
+  
+}
