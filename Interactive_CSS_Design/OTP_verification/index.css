@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;900&display=swap");
+body {
+  background-color: rgb(214, 230, 230);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+.content {
+  /* Centering within the container */
+  display: inline-block;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  width: 25%;
+  height: auto;
+  border-radius: 6px;
+}
+.title {
+  color: black;
+  font-size: 30px;
+  font-weight: 650;
+  font-family: "Nunito", sans-serif;
+}
+.sub_title {
+  color: rgb(216, 216, 216);
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+}
+.phone_number {
+  color: black;
+  font-size: 18px;
+  font-weight: 550;
+  font-family: "Nunito", sans-serif;
+}
+.wrapper {
+  height: auto;
+  width: 100%;
+  display: flex;
+  padding-left: 9%;
+}
+
+.feild1 {
+  border-radius: 6px;
+  background-color: rgb(214, 230, 230);
+  margin-right: 9%;
+  width: 13%;
+  height: 90px;
+  border: none;
+  box-shadow: rgba(135, 135, 135, 0.2) 0px 2px 8px 0px;
+}
+.resend {
+  font-family: "Nunito", sans-serif;
+  border: none;
+  color: rgb(103, 186, 219);
+  font-weight: 300;
+  font-size: 15px;
+  box-shadow: none;
+  background-color: transparent;
+}
+.me {
+  font-family: "Nunito", sans-serif;
+  float: right;
+  background-color: rgb(139, 139, 207);
+  border: none;
+  width: 25%;
+  height: 28px;
+  border-radius: 4px;
+}
