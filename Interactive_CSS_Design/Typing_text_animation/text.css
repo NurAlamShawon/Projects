@@ -1,0 +1,31 @@
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: #18181c;
+}
+.wrapper{
+    display: inline-block;
+}
+.text{
+   font-size: 2rem;
+   letter-spacing: 3px;
+   font-weight: 600;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #f97800;
+   width: 100%;
+   text-transform: uppercase;
+   border-right: 5px solid;
+   white-space: nowrap;
+   overflow: hidden;
+   animation:  typing 2.5s steps(19),
+   cursor .4s step-end infinite alternate;
+}
+@keyframes cursor{
+    50%{border-color: transparent;}
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
