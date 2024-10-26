@@ -1,0 +1,29 @@
+body{
+    background-color: #999797;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.content {
+    /* Centering within the container */
+    display: flex;
+    align-items: center;
+}
+input{
+    
+    all: unset;
+    color: white;
+    border: 1px solid #545252;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+input:is(:focus){
+    border: 2px solid transparent;
+    transition: all 0.1s ease;
+    background: linear-gradient(#121125,#121125)padding-box,
+    linear-gradient(45deg,blue,red)border-box;
+}
